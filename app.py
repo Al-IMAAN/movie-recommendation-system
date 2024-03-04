@@ -33,13 +33,6 @@ imageUrls = [
     fetch_poster(2830),
     fetch_poster(429422),
     fetch_poster(9722),
-    fetch_poster(13972),
-    fetch_poster(240),
-    fetch_poster(155),
-    fetch_poster(598),
-    fetch_poster(914),
-    fetch_poster(255709),
-    fetch_poster(572154)
 
 ]
 
