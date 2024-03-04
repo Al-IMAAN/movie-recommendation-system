@@ -1,10 +1,13 @@
 import streamlit as st
 import pickle
 import requests
+import os
+from dotenv import load_dotenv
 
+keys= os.getenv('') #key
 
 def fetch_poster(movie_id):
-    url = "https://api.themoviedb.org/3/movie/{}?api_key=c7ec19ffdd3279641fb606d19ceb9bb1&language=en-US".format(
+    url = "https://api.themoviedb.org/3/movie/{}?api_key={keys}".format(
         movie_id)
     data = requests.get(url)
     data = data.json()
